@@ -129,7 +129,7 @@ echo createMenu($data); //call to setup menu
 
 /********************************************************************end of self-defined menu part**********************************************************/
 
-define ("TOKEN","token"); //define token as "token", can be changed to any other
+define ("TOKEN","xxxxx"); //define token as "token", can be changed to any other
 
 /**********************************************************************begining of pushing messages********************************************************/
 
@@ -160,7 +160,7 @@ class wechatCallbackapiTest{
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];	
         		
-		$token = "token";
+		$token = "xxxxx";
 		$tmpArr = array($token, $timestamp, $nonce);
 		sort($tmpArr, SORT_STRING);
 		$tmpStr = implode( $tmpArr );
